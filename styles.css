@@ -15,6 +15,7 @@ header {
 
 nav {
     background-color: #444;
+    padding: 0.5em 0;
 }
 
 nav ul {
@@ -33,13 +34,62 @@ nav ul li a {
     text-decoration: none;
 }
 
-section {
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    padding: 2em 0;
+    color: #fff;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+main {
     padding: 2em;
-    margin: 1em auto;
-    max-width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.project, article {
     background-color: #fff;
+    padding: 1em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
 footer {
